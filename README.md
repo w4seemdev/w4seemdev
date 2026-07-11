@@ -8,10 +8,10 @@ Full-stack developer shipping AI-powered web products — TypeScript/React front
 | ------- | ------------ | ----- |
 | **SplitApp** | Fitness tracker with Supabase Auth and RLS-secured cloud sync | [Live](https://split-app-tawny.vercel.app) · [Code](https://github.com/w4seemdev/SplitApp) |
 | **Templix** | 61-template marketplace with Stripe checkout | [Live](https://templix-peach.vercel.app) · [Code](https://github.com/w4seemdev/Templix) |
+| **Idea Enhancer** | Turns rough ideas into structured concepts with the Claude API | [Live](https://ide-aenhancer.vercel.app) · [Code](https://github.com/w4seemdev/IDEAenhancer) |
 
 ## Building now
 
-- **Idea Enhancer** — turns rough ideas into structured concepts with the Claude API · [Code](https://github.com/w4seemdev/IDEAenhancer) — live link coming
 - **AI Pulse** — daily AI release newswire · [Code](https://github.com/w4seemdev/AiNews)
 
 ## Stack
