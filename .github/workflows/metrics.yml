@@ -1,3 +1,8 @@
+# Requires a METRICS_TOKEN repository secret: a classic GitHub PAT with public-repo
+# read scope (Settings > Secrets and variables > Actions). Without it, the daily cron
+# fails silently. After adding the secret, trigger the first run manually via
+# workflow_dispatch — it commits github-metrics.svg to the repo. The README does not
+# reference that SVG; only embed it after a successful run has committed the file.
 name: Metrics
 on:
   schedule:
@@ -11,12 +16,12 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: w4seemdev
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, repositories
           config_timezone: Asia/Amman
           config_display: large
 
@@ -28,18 +33,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_colors: github
-
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-
-          plugin_lines: yes
-
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
 
           # PageSpeed rings — uncomment when your AI Pulse site is live.
           # Needs a free API key from https://developers.google.com/speed/docs/insights/v5/get-started
