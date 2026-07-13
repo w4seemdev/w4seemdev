@@ -1,7 +1,7 @@
-<h1 align="center">Hi, I'm Waseem ðŸ‘‹</h1>
+<h1 align="center">Hi, I'm Waseem 👋</h1>
 
 <p align="center">
-  Full-stack developer shipping AI-powered web products â€”<br/>
+  Full-stack developer shipping AI-powered web products —<br/>
   TypeScript / React front-ends, Node.js + Supabase back-ends.
 </p>
 
@@ -17,38 +17,31 @@
 
 ---
 
-## ðŸš€ Featured projects
+## Featured projects
 
 | Project | What it does | Links |
 | ------- | ------------ | ----- |
-| **DataDojo** | Crowdsourced AI-training-data platform â€” people judge and fix AI answers, peer-reviewed into a public CC0 dataset (SFT/DPO JSONL export) | [Code](https://github.com/w4seemdev/datadojo) |
-| **SplitApp** | Workout planner & tracker with Supabase Auth and RLS-secured cloud sync | [Live](https://split-app-tawny.vercel.app) Â· [Code](https://github.com/w4seemdev/SplitApp) |
-| **Templix** | 61-template marketplace with secure Stripe checkout | [Live](https://templix-peach.vercel.app) Â· [Code](https://github.com/w4seemdev/Templix) |
-| **Idea Enhancer** | Turns rough ideas into structured, buildable concepts with the Claude API | [Live](https://ide-aenhancer.vercel.app) Â· [Code](https://github.com/w4seemdev/IDEAenhancer) |
+| **DataDojo** | Crowdsourced AI-training-data platform — people judge and fix AI answers, peer-reviewed into a public CC0 dataset (SFT/DPO JSONL export) | [Code](https://github.com/w4seemdev/datadojo) |
+| **SplitApp** | Workout planner & tracker with Supabase Auth and RLS-secured cloud sync | [Live](https://split-app-tawny.vercel.app) · [Code](https://github.com/w4seemdev/SplitApp) |
+| **Templix** | 61-template marketplace with secure Stripe checkout | [Live](https://templix-peach.vercel.app) · [Code](https://github.com/w4seemdev/Templix) |
+| **Idea Enhancer** | Turns rough ideas into structured, buildable concepts with the Claude API | [Live](https://ide-aenhancer.vercel.app) · [Code](https://github.com/w4seemdev/IDEAenhancer) |
 
-## ðŸ§ª Also building
+## Also building
 
-- **AI Pulse** â€” daily AI-release newswire Â· [Live](https://ai-news-sandy-omega.vercel.app) Â· [Code](https://github.com/w4seemdev/AiNews)
-- **AI Space Shorts Agent** â€” Python agent for short-form video content Â· [Code](https://github.com/w4seemdev/AiSpaceShortsAgent) Â· [YouTube](https://www.youtube.com/@w4seeemm)
-- **Game Dashboard** â€” game stats dashboard Â· [Live](https://game-dash-board.vercel.app) Â· [Code](https://github.com/w4seemdev/GameDashBoard)
-- **Air Quality** â€” air-quality monitoring front-end Â· [Live](https://air-quality-pure-front.vercel.app) Â· [Code](https://github.com/w4seemdev/AirQualityPureFront)
-- **YouTube Analysis** â€” YouTube analytics project Â· [Code](https://github.com/w4seemdev/YouTubeAnalysisProject)
+- **AI Pulse** — daily AI-release newswire · [Live](https://ai-news-sandy-omega.vercel.app) · [Code](https://github.com/w4seemdev/AiNews)
+- **AI Space Shorts Agent** — Python agent for short-form video content · [Code](https://github.com/w4seemdev/AiSpaceShortsAgent) · [YouTube](https://www.youtube.com/@w4seeemm)
+- **Game Dashboard** — game stats dashboard · [Live](https://game-dash-board.vercel.app) · [Code](https://github.com/w4seemdev/GameDashBoard)
+- **Air Quality** — air-quality monitoring front-end · [Live](https://air-quality-pure-front.vercel.app) · [Code](https://github.com/w4seemdev/AirQualityPureFront)
+- **YouTube Analysis** — YouTube analytics project · [Code](https://github.com/w4seemdev/YouTubeAnalysisProject)
 
-## ðŸ› ï¸ Stack
+## Stack
 
-`TypeScript` Â· `React` Â· `Vite` Â· `Tailwind CSS` Â· `Node.js` Â· `Supabase` Â· `Python` Â· `Vercel` Â· `Cloudflare Pages`
-
----
-
-<div align="center">
-  <img height="165" alt="Waseem's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=w4seemdev&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=w4seemdev&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" />
-</div>
+`TypeScript` · `React` · `Vite` · `Tailwind CSS` · `Node.js` · `Supabase` · `Python` · `Vercel` · `Cloudflare Pages`
 
 ---
 
 <p align="center">
-  <a href="https://github.com/w4seemdev">GitHub</a> Â·
-  <a href="https://www.youtube.com/@w4seeemm">YouTube</a> Â·
+  <a href="https://github.com/w4seemdev">GitHub</a> ·
+  <a href="https://www.youtube.com/@w4seeemm">YouTube</a> ·
   <a href="mailto:waseemabufares@gmail.com">waseemabufares@gmail.com</a>
 </p>
