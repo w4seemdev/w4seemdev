@@ -44,10 +44,10 @@ Turn one scrappy line into four fully developed product concepts — instantly, 
 | [AI Pulse](https://github.com/w4seemdev/AiNews) | Self-updating AI-news site — a daily GitHub Actions pipeline collects releases from 8 AI labs; no CMS, no server |
 | [DataDojo](https://github.com/w4seemdev/datadojo) | Crowdsourced AI-training-data platform — peer-validated contributions exported as CC0 SFT/DPO datasets |
 | [Auto-Fill Forms](https://github.com/w4seemdev/Auto-Fill-Forms) | AI agent that fills entire job-application forms from your saved profile — and always hands you the final Submit click |
-| [AI Level](https://github.com/w4seemdev/ai-level) | Wordle-style shared daily AI quiz with XP levels, streaks, and shareable score cards |
-| [GameScope](https://github.com/w4seemdev/GameScope) | Fast video-game discovery app on the RAWG database — search, filter, and sort thousands of titles |
-| [Trackle](https://github.com/w4seemdev/Pro1) | Local-first task manager — inline `!priority` / `#tag` quick-add, undoable actions, no backend |
-| [Portfolio Website](https://github.com/w4seemdev/portfolio) | Emerald-themed personal portfolio with a custom Chakra UI v3 design system and dark/light mode |
+| [YouTube Analysis](https://github.com/w4seemdev/YouTubeAnalysisProject) | ML-powered YouTube performance predictor — trained XGBoost model served by FastAPI, with a React analytics dashboard |
+| [GameDashBoard](https://github.com/w4seemdev/GameDashBoard) | Arcade-styled video-game discovery dashboard on the RAWG database — genre and platform filters, six sort orders, zero-layout-shift skeletons |
+| [AI Space Shorts Agent](https://github.com/w4seemdev/AiSpaceShortsAgent) | Autonomous YouTube Shorts pipeline — LLM script, TTS narration, word-synced captions, vertical render, auto-upload |
+| [Air-Quality Mesh Site](https://github.com/w4seemdev/AirQualityPureFront) | Static landing site for a smart air-quality sensor mesh — pure HTML/CSS/vanilla JS with accessibility baked in |
 
 ---
 
@@ -57,6 +57,7 @@ Turn one scrappy line into four fully developed product concepts — instantly, 
 - **Supabase backends** — authentication, Postgres with Row-Level Security, storage, and edge functions
 - **Stripe payment flows** — secure checkout with server-side pricing and signature-verified webhook fulfilment
 - **AI features with the Claude API** — structured outputs, rate limiting, and graceful degradation when keys or quotas run out
+- **Machine-learning features** — trained models (XGBoost) with real feature engineering, served through FastAPI endpoints
 - **CI/CD & data pipelines** — GitHub Actions for tests, builds, and scheduled data collection with supply-chain hardening
 - **Browser automation agents** — Playwright-driven, human-in-the-loop workflows with prompt-injection defenses
 
@@ -84,6 +85,8 @@ Turn one scrappy line into four fully developed product concepts — instantly, 
 **AI & Automation**
 
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-45BA4B?style=for-the-badge)
 
