@@ -1,65 +1,102 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Waseem: full-stack developer building AI-powered web products" src="assets/banner-light.svg" width="100%">
-</picture>
+# Waseem Abu Fares
 
-<p align="center">
-  Hi, I'm Waseem 👋 I build and ship AI-powered web products, end to end.<br>
-  TypeScript, React, and Tailwind up front; Node.js and Supabase behind; Python when the job calls for it.<br>
-  I like databases that enforce their own rules and demos you can actually click.
-</p>
+**Frontend / React Developer building AI-powered web apps**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-</p>
+I build complete, production-grade web products: React + TypeScript frontends backed by Supabase auth, Postgres with Row-Level Security, Stripe payments, and AI features powered by the Claude API. Everything below is real, working code you can browse — with live demos you can click right now.
 
 ---
 
-## Featured work
+## Featured Projects
 
-| Project | What it does | Stack | Links |
-| :------ | :----------- | :---- | :---- |
-| **DataDojo** | Crowdsourced AI-training-data platform: visitors judge and repair AI answers, peer review gates the data, and the result exports as a public CC0 dataset in SFT/DPO JSONL | `TypeScript` `React` `Supabase` | [Code](https://github.com/w4seemdev/datadojo) |
-| **SplitApp** | Workout planner and tracker with Supabase Auth and RLS-secured cloud sync | `React` `Supabase` | [Live](https://split-app-tawny.vercel.app) · [Code](https://github.com/w4seemdev/SplitApp) |
-| **Templix** | Marketplace of 61 site templates with secure Stripe checkout | `TypeScript` `React` `Stripe` | [Live](https://templix-peach.vercel.app) · [Code](https://github.com/w4seemdev/Templix) |
-| **Idea Enhancer** | Turns rough ideas into structured, buildable concepts using the Claude API | `TypeScript` `React` `Claude API` | [Live](https://ide-aenhancer.vercel.app) · [Code](https://github.com/w4seemdev/IDEAenhancer) |
+### [Templix](https://github.com/w4seemdev/Templix) — premium website template marketplace
 
----
+Browse 61 hand-built templates, preview each one live, and buy securely through Stripe.
 
-## More projects
+- Zero-trust checkout: prices come from a server-side catalog and buyer identity from a verified JWT — the client sends only a template id; downloads are ownership-gated behind signed URLs
+- **Tech:** React 19 · TypeScript · Vite · Tailwind CSS 4 · Supabase (Auth, Postgres, Storage, Edge Functions) · Stripe
 
-- **AI Pulse**: daily AI-release newswire. [Live](https://ai-news-sandy-omega.vercel.app) · [Code](https://github.com/w4seemdev/AiNews)
-- **AI Space Shorts Agent**: Python agent for short-form video content. [Code](https://github.com/w4seemdev/AiSpaceShortsAgent) · [YouTube](https://www.youtube.com/@w4seeemm)
-- **Game Dashboard**: game stats dashboard. [Live](https://game-dash-board.vercel.app) · [Code](https://github.com/w4seemdev/GameDashBoard)
-- **Air Quality**: air-quality monitoring front-end. [Live](https://air-quality-pure-front.vercel.app) · [Code](https://github.com/w4seemdev/AirQualityPureFront)
-- **YouTube Analysis**: YouTube analytics project in TypeScript. [Code](https://github.com/w4seemdev/YouTubeAnalysisProject)
+**[LIVE DEMO → templix-peach.vercel.app](https://templix-peach.vercel.app)**
 
----
+### [SplitApp](https://github.com/w4seemdev/SplitApp) — workout split planner & tracker
 
-## How I build
+A science-based training planner that keeps every set you log safe in the cloud — built for lifters who want a plan, not a spreadsheet.
 
-- End to end means end to end: auth, RLS-secured data, Stripe payments, and CI, not a front-end with a TODO list.
-- TypeScript strictness paired with Vite and Tailwind: iteration stays fast and the compiler keeps it honest.
-- The database enforces the rules. Supabase row-level security and triggers guard the data even when a client misbehaves.
-- AI products with honest data practices: peer review gates every contribution, and the dataset ships as CC0 open data.
+- Local-first sync engine: debounced write-through to Supabase with automatic flush when the tab closes, so sets logged mid-workout are never lost; installable PWA
+- **Tech:** React 18 · Vite · Supabase (Postgres + Auth, RLS) · Workbox PWA
 
----
+**[LIVE DEMO → split-app-tawny.vercel.app](https://split-app-tawny.vercel.app)**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/w4seemdev/w4seemdev/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/w4seemdev/w4seemdev/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
+### [Idea Enhancer](https://github.com/w4seemdev/IDEAenhancer) — AI product-concept generator
+
+Turn one scrappy line into four fully developed product concepts — instantly, with AI.
+
+- Guaranteed-shape AI output: strict structured outputs from the Claude API, validated on both server and client, with rate limiting and honest demo-mode fallbacks — no fake AI theater
+- **Tech:** React 19 · TypeScript (strict) · Vite · Tailwind CSS 4 · Claude API · Vercel serverless
+
+**[LIVE DEMO → ide-aenhancer.vercel.app](https://ide-aenhancer.vercel.app)**
 
 ---
 
-<p align="center">
-  <a href="https://github.com/w4seemdev"><img src="https://img.shields.io/badge/GitHub-w4seemdev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: w4seemdev" /></a>
-  <a href="https://www.youtube.com/@w4seeemm"><img src="https://img.shields.io/badge/YouTube-%40w4seeemm-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube: @w4seeemm" /></a>
-  <a href="mailto:waseemabufares@gmail.com"><img src="https://img.shields.io/badge/Email-waseemabufares%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: waseemabufares@gmail.com" /></a>
-</p>
+## More Projects
+
+| Project | What it is |
+| --- | --- |
+| [AI Pulse](https://github.com/w4seemdev/AiNews) | Self-updating AI-news site — a daily GitHub Actions pipeline collects releases from 8 AI labs; no CMS, no server |
+| [DataDojo](https://github.com/w4seemdev/datadojo) | Crowdsourced AI-training-data platform — peer-validated contributions exported as CC0 SFT/DPO datasets |
+| [Auto-Fill Forms](https://github.com/w4seemdev/Auto-Fill-Forms) | AI agent that fills entire job-application forms from your saved profile — and always hands you the final Submit click |
+| [AI Level](https://github.com/w4seemdev/ai-level) | Wordle-style shared daily AI quiz with XP levels, streaks, and shareable score cards |
+| [GameScope](https://github.com/w4seemdev/GameScope) | Fast video-game discovery app on the RAWG database — search, filter, and sort thousands of titles |
+| [Trackle](https://github.com/w4seemdev/Pro1) | Local-first task manager — inline `!priority` / `#tag` quick-add, undoable actions, no backend |
+| [Portfolio Website](https://github.com/w4seemdev/portfolio) | Emerald-themed personal portfolio with a custom Chakra UI v3 design system and dark/light mode |
+
+---
+
+## What I Can Build For You
+
+- **React / TypeScript web apps** — fast SPAs and installable PWAs with code splitting, accessibility, and strict typing
+- **Supabase backends** — authentication, Postgres with Row-Level Security, storage, and edge functions
+- **Stripe payment flows** — secure checkout with server-side pricing and signature-verified webhook fulfilment
+- **AI features with the Claude API** — structured outputs, rate limiting, and graceful degradation when keys or quotas run out
+- **CI/CD & data pipelines** — GitHub Actions for tests, builds, and scheduled data collection with supply-chain hardening
+- **Browser automation agents** — Playwright-driven, human-in-the-loop workflows with prompt-injection defenses
+
+---
+
+## Tech Stack
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakraui&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge)
+
+**Backend & Payments**
+
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+
+**AI & Automation**
+
+![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-45BA4B?style=for-the-badge)
+
+**Testing & Deploy**
+
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## Contact
+
+Available for freelance work.
+
+- **GitHub:** [@w4seemdev](https://github.com/w4seemdev)
+- **See the work first:** start with the three live demos above, then browse any repo — every README documents the architecture and how to run it locally
