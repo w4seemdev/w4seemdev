@@ -2,35 +2,35 @@
 
 **Frontend / React Developer building AI-powered web apps**
 
-I build complete, production-grade web products: React + TypeScript frontends backed by Supabase auth, Postgres with Row-Level Security, Stripe payments, and AI features powered by the Claude API. Everything below is real, working code you can browse — with live demos you can click right now.
+I build complete, production-grade web products: React + TypeScript frontends backed by Supabase auth, Postgres with Row-Level Security, Stripe payments, and AI features powered by the Claude API. Everything below is real, working code you can browse, with live demos you can click right now.
 
 ---
 
 ## Featured Projects
 
-### [Templix](https://github.com/w4seemdev/Templix) — premium website template marketplace
+### [Templix](https://github.com/w4seemdev/Templix): premium website template marketplace
 
 Browse 61 hand-built templates, preview each one live, and buy securely through Stripe.
 
-- Zero-trust checkout: prices come from a server-side catalog and buyer identity from a verified JWT — the client sends only a template id; downloads are ownership-gated behind signed URLs
+- Zero-trust checkout: prices come from a server-side catalog and buyer identity from a verified JWT, the client sends only a template id; downloads are ownership-gated behind signed URLs
 - **Tech:** React 19 · TypeScript · Vite · Tailwind CSS 4 · Supabase (Auth, Postgres, Storage, Edge Functions) · Stripe
 
 **[LIVE DEMO → templix-peach.vercel.app](https://templix-peach.vercel.app)**
 
-### [SplitApp](https://github.com/w4seemdev/SplitApp) — workout split planner & tracker
+### [SplitApp](https://github.com/w4seemdev/SplitApp): workout split planner & tracker
 
-A science-based training planner that keeps every set you log safe in the cloud — built for lifters who want a plan, not a spreadsheet.
+A science-based training planner that keeps every set you log safe in the cloud, built for lifters who want a plan, not a spreadsheet.
 
 - Local-first sync engine: debounced write-through to Supabase with automatic flush when the tab closes, so sets logged mid-workout are never lost; installable PWA
 - **Tech:** React 18 · Vite · Supabase (Postgres + Auth, RLS) · Workbox PWA
 
 **[LIVE DEMO → split-app-tawny.vercel.app](https://split-app-tawny.vercel.app)**
 
-### [Idea Enhancer](https://github.com/w4seemdev/IDEAenhancer) — AI product-concept generator
+### [Idea Enhancer](https://github.com/w4seemdev/IDEAenhancer): AI product-concept generator
 
-Turn one scrappy line into four fully developed product concepts — instantly, with AI.
+Turn one scrappy line into four fully developed product concepts, instantly, with AI.
 
-- Guaranteed-shape AI output: strict structured outputs from the Claude API, validated on both server and client, with rate limiting and honest demo-mode fallbacks — no fake AI theater
+- Guaranteed-shape AI output: strict structured outputs from the Claude API, validated on both server and client, with rate limiting and honest demo-mode fallbacks, no fake AI theater
 - **Tech:** React 19 · TypeScript (strict) · Vite · Tailwind CSS 4 · Claude API · Vercel serverless
 
 **[LIVE DEMO → ide-aenhancer.vercel.app](https://ide-aenhancer.vercel.app)**
@@ -41,25 +41,25 @@ Turn one scrappy line into four fully developed product concepts — instantly, 
 
 | Project | What it is |
 | --- | --- |
-| [AI Pulse](https://github.com/w4seemdev/AiNews) | Self-updating AI-news site — a daily GitHub Actions pipeline collects releases from 8 AI labs; no CMS, no server |
-| [DataDojo](https://github.com/w4seemdev/datadojo) | Crowdsourced AI-training-data platform — peer-validated contributions exported as CC0 SFT/DPO datasets |
-| [Auto-Fill Forms](https://github.com/w4seemdev/Auto-Fill-Forms) | AI agent that fills entire job-application forms from your saved profile — and always hands you the final Submit click |
-| [YouTube Analysis](https://github.com/w4seemdev/YouTubeAnalysisProject) | ML-powered YouTube performance predictor — trained XGBoost model served by FastAPI, with a React analytics dashboard |
-| [GameDashBoard](https://github.com/w4seemdev/GameDashBoard) | Arcade-styled video-game discovery dashboard on the RAWG database — genre and platform filters, six sort orders, zero-layout-shift skeletons |
-| [AI Space Shorts Agent](https://github.com/w4seemdev/AiSpaceShortsAgent) | Autonomous YouTube Shorts pipeline — LLM script, TTS narration, word-synced captions, vertical render, auto-upload |
-| [Air-Quality Mesh Site](https://github.com/w4seemdev/AirQualityPureFront) | Static landing site for a smart air-quality sensor mesh — pure HTML/CSS/vanilla JS with accessibility baked in |
+| [AI Pulse](https://github.com/w4seemdev/AiNews) | Self-updating AI-news site: a daily GitHub Actions pipeline collects releases from 8 AI labs; no CMS, no server |
+| [DataDojo](https://github.com/w4seemdev/datadojo) | Crowdsourced AI-training-data platform: peer-validated contributions exported as CC0 SFT/DPO datasets |
+| [Auto-Fill Forms](https://github.com/w4seemdev/Auto-Fill-Forms) | AI agent that fills entire job-application forms from your saved profile, and always hands you the final Submit click |
+| [YouTube Analysis](https://github.com/w4seemdev/YouTubeAnalysisProject) | ML-powered YouTube performance predictor: trained XGBoost model served by FastAPI, with a React analytics dashboard |
+| [GameDashBoard](https://github.com/w4seemdev/GameDashBoard) | Arcade-styled video-game discovery dashboard on the RAWG database: genre and platform filters, six sort orders, zero-layout-shift skeletons |
+| [AI Space Shorts Agent](https://github.com/w4seemdev/AiSpaceShortsAgent) | Autonomous YouTube Shorts pipeline: LLM script, TTS narration, word-synced captions, vertical render, auto-upload |
+| [Air-Quality Mesh Site](https://github.com/w4seemdev/AirQualityPureFront) | Static landing site for a smart air-quality sensor mesh: pure HTML/CSS/vanilla JS with accessibility baked in |
 
 ---
 
 ## What I Can Build For You
 
-- **React / TypeScript web apps** — fast SPAs and installable PWAs with code splitting, accessibility, and strict typing
-- **Supabase backends** — authentication, Postgres with Row-Level Security, storage, and edge functions
-- **Stripe payment flows** — secure checkout with server-side pricing and signature-verified webhook fulfilment
-- **AI features with the Claude API** — structured outputs, rate limiting, and graceful degradation when keys or quotas run out
-- **Machine-learning features** — trained models (XGBoost) with real feature engineering, served through FastAPI endpoints
-- **CI/CD & data pipelines** — GitHub Actions for tests, builds, and scheduled data collection with supply-chain hardening
-- **Browser automation agents** — Playwright-driven, human-in-the-loop workflows with prompt-injection defenses
+- **React / TypeScript web apps**: fast SPAs and installable PWAs with code splitting, accessibility, and strict typing
+- **Supabase backends**: authentication, Postgres with Row-Level Security, storage, and edge functions
+- **Stripe payment flows**: secure checkout with server-side pricing and signature-verified webhook fulfilment
+- **AI features with the Claude API**: structured outputs, rate limiting, and graceful degradation when keys or quotas run out
+- **Machine-learning features**: trained models (XGBoost) with real feature engineering, served through FastAPI endpoints
+- **CI/CD & data pipelines**: GitHub Actions for tests, builds, and scheduled data collection with supply-chain hardening
+- **Browser automation agents**: Playwright-driven, human-in-the-loop workflows with prompt-injection defenses
 
 ---
 
@@ -102,4 +102,4 @@ Turn one scrappy line into four fully developed product concepts — instantly, 
 Available for freelance work.
 
 - **GitHub:** [@w4seemdev](https://github.com/w4seemdev)
-- **See the work first:** start with the three live demos above, then browse any repo — every README documents the architecture and how to run it locally
+- **See the work first:** start with the three live demos above, then browse any repo: every README documents the architecture and how to run it locally
