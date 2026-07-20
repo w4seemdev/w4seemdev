@@ -6,6 +6,7 @@
 # Waseem Abu Fares: Full-Stack React Developer
 
 ![Available for freelance](https://img.shields.io/badge/Available_for_freelance-2EA44F?style=for-the-badge)
+![Last commit](https://img.shields.io/github/last-commit/w4seemdev/w4seemdev?style=for-the-badge&label=Last%20active&color=2EA44F)
 
 I build complete web products: React + TypeScript frontends, Supabase backends with Row-Level Security, Stripe payments, and AI features powered by the Claude API.
 
