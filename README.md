@@ -70,7 +70,7 @@ Beyond the frontend: a trained model, an autonomous pipeline, and a safety-consc
 
 ## Tech Stack
 
-React 19 · TypeScript (strict) · Vite · Tailwind CSS 4 · Supabase (Postgres, RLS, Edge Functions) · Stripe · Claude API · Python · FastAPI · Playwright · Vitest · GitHub Actions · Vercel
+React 19 · TypeScript (strict) · Node.js · Vite · Tailwind CSS 4 · Supabase (Postgres, RLS, Edge Functions) · Stripe · Claude API · Python · FastAPI · Playwright · Vitest · GitHub Actions · Vercel
 
 ---
 
