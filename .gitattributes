@@ -1,0 +1,4 @@
+# Normalize line endings for consistent diffs across Windows/macOS/Linux
+* text=auto eol=lf
+*.png binary
+*.svg text eol=lf
