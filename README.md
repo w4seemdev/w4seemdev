@@ -8,6 +8,12 @@
 ![Available for freelance](https://img.shields.io/badge/Available_for_freelance-2EA44F?style=for-the-badge)
 ![Last commit](https://img.shields.io/github/last-commit/w4seemdev/w4seemdev?style=for-the-badge&label=Last%20active&color=2EA44F)
 
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-D97757?logo=anthropic&logoColor=white)
+
 I build complete web products: React + TypeScript frontends, Supabase backends with Row-Level Security, Stripe payments, and AI features powered by the Claude API.
 
 **Live right now:** [Templix](https://templix-peach.vercel.app) marketplace with Stripe checkout, [SplitApp](https://split-app-tawny.vercel.app) installable workout PWA, [IDEAenhancer](https://ide-aenhancer.vercel.app) AI concept generator
