@@ -5,6 +5,8 @@
 
 # Waseem Abu Fares: Full-Stack React Developer
 
+*Shipping production-grade React + AI web apps end to end — frontend, backend, payments, and deployment.*
+
 ![Available for freelance](https://img.shields.io/badge/Available_for_freelance-2EA44F?style=for-the-badge)
 ![Last commit](https://img.shields.io/github/last-commit/w4seemdev/w4seemdev?style=for-the-badge&label=Last%20active&color=2EA44F)
 
