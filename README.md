@@ -91,3 +91,5 @@ How I work: clear milestones agreed up front, regular progress updates, and full
 The fastest way to reach me: open an issue on the project closest to what you need. I reply on GitHub.
 
 The project links above go deeper: every README documents the architecture and how to run it locally.
+
+<!-- profile refreshed: 2026-08-03 -->
