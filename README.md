@@ -92,4 +92,4 @@ The fastest way to reach me: open an issue on the project closest to what you ne
 
 The project links above go deeper: every README documents the architecture and how to run it locally.
 
-<!-- profile refreshed: 2026-08-09 -->
+<!-- profile refreshed: 2026-08-20 -->
