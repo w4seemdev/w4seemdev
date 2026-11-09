@@ -182,15 +182,12 @@ def hero(theme: Theme, plex: Typeface, plexar: Typeface) -> str:
             )
         grid.append(f'<g style="--w:{w}">{"".join(rects)}</g>')
 
-    status_x = plex.width("Waseem Abu Fares", 26, 500) + 34
     arabic_w = plexar.width("العربية", 26)
     body = [
         "".join(grid),
         plex.path("Full-stack React developer", 0, 250, 60, theme.ink, 600, -1.2),
         plex.path("building AI-powered web products.", 0, 322, 60, theme.muted, 400, -1.2),
         plex.path("Waseem Abu Fares", 0, 388, 26, theme.ink, 500),
-        f'<circle cx="{num(status_x + 6)}" cy="379" r="6" fill="{theme.accent}"/>',
-        plex.path("Available for freelance", status_x + 22, 388, 26, theme.accent, 500),
         plexar.path("العربية", PAGE_W, 388, 26, theme.muted, anchor="end"),
         plex.path("English and", PAGE_W - arabic_w - 10, 388, 26, theme.muted, 400, anchor="end"),
     ]

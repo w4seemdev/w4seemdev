@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="WASEEM spelled out in a GitHub contribution graph. Waseem Abu Fares, full-stack React developer building AI-powered web products. Available for freelance, in English and Arabic." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="WASEEM spelled out in a GitHub contribution graph. Waseem Abu Fares, full-stack React developer building AI-powered web products, in English and Arabic." width="100%"></picture>
 
 I'm Waseem Abu Fares. I build complete web products end to end: React and TypeScript frontends, Supabase backends with Row-Level Security, Stripe payments, and AI features powered by the Claude API.
 
