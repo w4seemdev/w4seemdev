@@ -8,13 +8,13 @@ I'm Waseem Abu Fares. I build complete web products end to end: React and TypeSc
 
 <a href="https://templix-peach.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/templix-dark.svg"><img src="assets/templix-light.svg" alt="Templix, a marketplace of 61 website templates. Screenshot of the live site. Opens the live demo." width="100%"></picture></a>
 
-<a href="https://split-app-tawny.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/splitapp-dark.svg"><img src="assets/splitapp-light.svg" alt="SplitApp, an installable workout planner and tracker. Screenshot of the live site. Opens the live demo." width="49.95%"></picture></a><a href="https://ide-aenhancer.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ideaenhancer-dark.svg"><img src="assets/ideaenhancer-light.svg" alt="IDEAenhancer, an AI product concept generator. Screenshot of the live site. Opens the live demo." width="49.95%"></picture></a>
+<a href="https://split-app-tawny.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/splitapp-dark.svg"><img src="assets/splitapp-light.svg" alt="SplitApp, an installable workout planner and tracker. Screenshot of the live site. Opens the live demo." width="49.95%"></picture></a><a href="https://zukunft-service.cloud/de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/zukunft-dark.svg"><img src="assets/zukunft-light.svg" alt="Zukunft Service, a German and Arabic client website for a service agency in Dortmund. Screenshot of the live site. Opens the live site." width="49.95%"></picture></a>
 
 ### How they are built
 
 - **Templix** ([live demo](https://templix-peach.vercel.app), [source](https://github.com/w4seemdev/Templix)): customers cannot tamper with prices or download without paying. The client sends only a template id, price and buyer identity are resolved server-side, and downloads are ownership-gated behind signed URLs. Built with React 19, TypeScript, Supabase and Stripe.
 - **SplitApp** ([live demo](https://split-app-tawny.vercel.app), [source](https://github.com/w4seemdev/SplitApp)): sets logged mid-workout are never lost, even if the tab closes, because a debounced write-through to Supabase flushes automatically on close. Built with React 18, Vite, Supabase and Workbox.
-- **IDEAenhancer** ([live demo](https://ide-aenhancer.vercel.app), [source](https://github.com/w4seemdev/IDEAenhancer)): strict structured outputs from the Claude API are validated on both server and client, with rate limiting and a demo-mode fallback when no API key is configured. Built with React 19, TypeScript, Tailwind CSS 4 and Vercel serverless.
+- **Zukunft Service** ([live site](https://zukunft-service.cloud/de), [source](https://github.com/w4seemdev/GermanyApp)): a client site for a service agency in Dortmund, in German and Arabic. The Arabic layout is truly right to left, because a build check fails on any physical CSS direction, and Arabic has its own type scale. No cookies or trackers, and fonts are self-hosted. Built with Next.js 16, TypeScript and Tailwind CSS 4.
 
 ## AI, ML and automation
 
@@ -22,7 +22,7 @@ I'm Waseem Abu Fares. I build complete web products end to end: React and TypeSc
 - **[AiSpaceShortsAgent](https://github.com/w4seemdev/AiSpaceShortsAgent)**: an autonomous pipeline covering LLM script, TTS narration, word-synced captions and auto-upload, with no human in the loop.
 - **[Auto-Fill-Forms](https://github.com/w4seemdev/Auto-Fill-Forms)**: a human-in-the-loop agent that fills the form while the human always clicks Submit, with prompt-injection defenses built in.
 
-Also on my profile: [AiNews](https://github.com/w4seemdev/AiNews), a daily AI news site rebuilt by scheduled GitHub Actions. [DataDojo](https://github.com/w4seemdev/datadojo), a crowdsourced AI-training-data platform. [GameDashBoard](https://github.com/w4seemdev/GameDashBoard), a RAWG game discovery dashboard.
+Also on my profile: [IDEAenhancer](https://github.com/w4seemdev/IDEAenhancer), an AI product concept generator built on structured outputs from the Claude API. [AiNews](https://github.com/w4seemdev/AiNews), a daily AI news site rebuilt by scheduled GitHub Actions. [DataDojo](https://github.com/w4seemdev/datadojo), a crowdsourced AI-training-data platform. [GameDashBoard](https://github.com/w4seemdev/GameDashBoard), a RAWG game discovery dashboard.
 
 ## What I can build for you
 

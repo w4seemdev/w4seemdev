@@ -5,7 +5,7 @@ Usage: python tools/build_assets.py --fonts DIR --shots DIR
 
   --fonts  plex.ttf (IBM Plex Sans variable), mono.ttf (JetBrains Mono variable),
            plexar.ttf (IBM Plex Sans Arabic Medium). All OFL, from github.com/google/fonts.
-  --shots  templix.png, split.png, idea.png: 2880x1800 captures of the live sites.
+  --shots  templix.png, split.png, zukunft-de.png: 2880x1800 captures of the live sites.
 
 Requires fonttools, uharfbuzz and pillow.
 
@@ -298,10 +298,10 @@ def main() -> None:
                 "SplitApp, an installable workout planner and tracker. Open the live demo.",
                 offset=0,
             ),
-            "ideaenhancer": half_card(
-                theme, plex, mono, shots / "idea.png", "AI tool", "IDEAenhancer",
-                ["Turn one scrappy line into four fully", "developed product concepts."],
-                "IDEAenhancer, an AI product concept generator. Open the live demo.",
+            "zukunft": half_card(
+                theme, plex, mono, shots / "zukunft-de.png", "Client website", "Zukunft Service",
+                ["German and Arabic site for a service", "agency in Dortmund, fully right to left."],
+                "Zukunft Service, a German and Arabic client website. Open the live site.",
                 offset=GUTTER // 2,
             ),
         }
