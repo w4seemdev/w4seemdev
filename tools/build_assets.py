@@ -198,11 +198,12 @@ def hero(theme: Theme, plex: Typeface, plexar: Typeface) -> str:
     return svg(PAGE_W, 404, title, "".join(body), style)
 
 
-def encode_shot(path: Path, width: int, height: int) -> str:
+def encode_shot(path: Path, width: int, height: int, crop: tuple[int, int]) -> str:
     """Crops from the top of the page to the slot's aspect, at 2x, as a JPEG data URI."""
     image = Image.open(path).convert("RGB")
-    crop_h = round((CROP_RIGHT - CROP_LEFT) * height / width)
-    image = image.crop((CROP_LEFT, 0, CROP_RIGHT, crop_h)).resize((width * 2, height * 2), Image.LANCZOS)
+    left, right = crop
+    crop_h = round((right - left) * height / width)
+    image = image.crop((left, 0, right, crop_h)).resize((width * 2, height * 2), Image.LANCZOS)
     out = io.BytesIO()
     image.save(out, "JPEG", quality=80, optimize=True, progressive=True)
     return "data:image/jpeg;base64," + base64.b64encode(out.getvalue()).decode()
@@ -217,6 +218,7 @@ def card(
     title: str,
     canvas_w: int | None = None,
     offset: int = 0,
+    crop: tuple[int, int] = (CROP_LEFT, CROP_RIGHT),
 ) -> str:
     x, y, w, h = slot
     width, height = size
@@ -227,7 +229,7 @@ def card(
         f'<clipPath id="shot"><path d="{edge}V{y + h}Z"/></clipPath></defs>'
         f'<g transform="translate({offset} 0)">'
         f'<rect width="{width}" height="{height}" rx="{radius}" fill="{theme.surface}"/>'
-        f'<g clip-path="url(#card)"><image clip-path="url(#shot)" href="{encode_shot(shot, w, h)}" '
+        f'<g clip-path="url(#card)"><image clip-path="url(#shot)" href="{encode_shot(shot, w, h, crop)}" '
         f'x="{x}" y="{y}" width="{w}" height="{h}"/>'
         f'<path d="{edge}" fill="none" stroke="{theme.border}"/></g>'
         f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="{radius - .5}" '
@@ -252,15 +254,16 @@ def wide_card(
 def half_card(
     theme: Theme, plex: Typeface, mono: Typeface, shot: Path,
     eyebrow: str, name: str, lines: list[str], title: str, offset: int,
+    link_label: str = "Live demo →", crop: tuple[int, int] = (CROP_LEFT, CROP_RIGHT),
 ) -> str:
     texts = [
         mono.path(eyebrow, 44, 66, 20, theme.muted, 400),
-        plex.path("Live demo →", HALF_CARD_W - 44, 66, 20, theme.accent, 500, anchor="end"),
+        plex.path(link_label, HALF_CARD_W - 44, 66, 20, theme.accent, 500, anchor="end"),
         plex.path(name, 44, 126, 52, theme.ink, 600, -1),
         *[plex.path(line, 44, 174 + i * 36, 26, theme.muted, 400) for i, line in enumerate(lines)],
     ]
     slot = (44, 262, HALF_CARD_W - 44, 298)
-    return card(theme, shot, slot, (HALF_CARD_W, 560), texts, title, HALF_CANVAS_W, offset)
+    return card(theme, shot, slot, (HALF_CARD_W, 560), texts, title, HALF_CANVAS_W, offset, crop)
 
 
 def button(theme: Theme, plex: Typeface, label: str) -> str:
@@ -303,6 +306,8 @@ def main() -> None:
                 ["German and Arabic site for a service", "agency in Dortmund, fully right to left."],
                 "Zukunft Service, a German and Arabic client website. Open the live site.",
                 offset=GUTTER // 2,
+                link_label="Live site →",
+                crop=(60, 2820),
             ),
         }
         for name, content in outputs.items():
